@@ -53,5 +53,5 @@ for class_obj in meta_info:
 
 df.columns = [col_replace_dict.get(col, col) for col in df.columns]
 
-# 表示（上位20件だけ表示）
-print(df.head(20))
+# 表示（上位50件だけ表示）
+print(df.head(50))
